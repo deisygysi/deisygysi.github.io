@@ -29,6 +29,6 @@ The projects from Mental Wealth* try to pinpoint genes and symptoms that can be 
 
 
 ## Publications :books:
-:page_facing_up:  **Gysi, D.M.**, Nowick, K. _Understanding human cognition using TF-networks: Identifying signature genes for psychotic and neurodevelopmental disorders through a gene-co-expression networks approach_ (2021). [doi:NA](https://doi.org/NA)
+:page_facing_up:  **Gysi, D.M.**, Nowick, K. _Understanding human cognition using TF-networks: Identifying signature genes for psychotic and neurodevelopmental disorders through a gene-co-expression networks approach_ (2021).
 
-:page_facing_up:  Pimpao, F., **Gysi, D.M.**, Castro, D., Ferreira, T.B. _The Nosographic Network Structure of Posttraumatic Stress Disorder_, Submitted. (2021). 
+:page_facing_up:  Pimpao, F., **Gysi, D.M.**, Castro, D., Ferreira, T.B. _The Nosographic Network Structure of Posttraumatic Stress Disorder_, Journal of Traumatic Stress. (2022). 

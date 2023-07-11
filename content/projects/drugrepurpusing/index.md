@@ -2,7 +2,7 @@
 title: "Drug Repurpusing"
 subtitle: "Drug Repurpusing using Network Medicine"
 excerpt: "Using Network Medicine for identifying drug candidates for complex and infectious diseases."
-date: 2021-01-01
+date: 2023-07-11
 author: "Deisy Morselli Gysi"
 draft: false
 tags:
@@ -29,6 +29,6 @@ The advances in drug repurpusing offer a methodological pathway to identify repu
 
 ## Publications :books:
 
-:page_facing_up: Patten, JJ, Keiser, P. T., **Gysi, D.M.**, Menichetti, G., Mori, H., Donahue, C. J., Gan, X., Do Valle, I., Geoghegan-Barek, K., Anantpadma, M., Berrigan, J. L., Jalloh, S., Ayazika, T., Wagner, F., Zitnik, M., Ayehunie, S., Anderson, D., Loscalzo, J., Gummuluru, S., Namchuk, M. N.,  Barabasi, A. L., Davey, R. A. _Multidose evaluation of 6,710 drug repurposing library identifies potent SARS-CoV-2 infection inhibitors In Vitro and In Vivo_, Submitted. (2021). 
+:page_facing_up: Patten, JJ, Keiser, P. T., **Gysi, D.M.**, Menichetti, G., Mori, H., Donahue, C. J., Gan, X., Do Valle, I., Geoghegan-Barek, K., Anantpadma, M., Berrigan, J. L., Jalloh, S., Ayazika, T., Wagner, F., Zitnik, M., Ayehunie, S., Anderson, D., Loscalzo, J., Gummuluru, S., Namchuk, M. N.,  Barabasi, A. L., Davey, R. A. _Multidose evaluation of 6,710 drug repurposing library identifies potent SARS-CoV-2 infection inhibitors In Vitro and In Vivo_, iScience. (2022). [pdf](https://www.cell.com/iscience/pdf/S2589-0042(22)01197-X.pdf) 
 
 :page_facing_up: **Gysi, D.M.**, do Valle, I., Zitnik, M., Ameli, A., Gan, X., Varol, O., Ghiassian, S.D., Patten, J. J., Davey, R.A., Loscalzo, J., Barabasi, A.L. _Network medicine framework for identifying drug-repurposing opportunities for COVID-19_, **Proceedings of the National Academy of Sciences**. vol. 118, no. 19 (2021) [doi:10.1073/pnas.2025581118](https://doi.org/10.1073/pnas.2025581118)
