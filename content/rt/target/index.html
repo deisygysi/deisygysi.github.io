@@ -1,0 +1,42 @@
+---
+subtitle: "Generative Rt"
+title: "Nymphaeaceae"
+date: 2023-07-08
+author: "Deisy Morselli Gysi"
+draft: false
+# layout options: single, single-sidebar
+layout: single
+categories:
+- GenerativeArt
+- art
+tags:
+- plots
+- ggplot2
+- rt
+- art
+- artistry
+- rtistry
+
+---
+
+
+
+<p>Lilly Pads :)</p>
+<pre class="r"><code>library(tidyverse)
+library(ggplot2)
+n_points &lt;- 800
+theta &lt;- seq(0, 2 * pi, length.out = n_points)
+radius &lt;- rep(c(0, 1), length.out = n_points)
+x &lt;- radius * cos(theta)
+y &lt;- radius * sin(theta)
+z &lt;- radius * sin(theta/2)
+# Create a dataframe with the generated data
+data &lt;- data.frame(x = x, y = y, z = z)
+
+# Create the generative art plot
+plot &lt;- ggplot(data, aes(x = x, y = y)) +
+    geom_line(color = &quot;#5E8C61&quot;, size = 0.3) +
+geom_line(aes(y=x, x = y), color = &quot;#4E6151&quot;, size = 0.5) +
+    theme_void() +
+    coord_polar() ; plot</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

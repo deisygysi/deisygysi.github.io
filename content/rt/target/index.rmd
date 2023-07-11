@@ -1,0 +1,52 @@
+---
+subtitle: "Generative Rt"
+title: "Nymphaeaceae"
+date: 2023-07-08
+author: "Deisy Morselli Gysi"
+draft: false
+# layout options: single, single-sidebar
+layout: single
+categories:
+- GenerativeArt
+- art
+tags:
+- plots
+- ggplot2
+- rt
+- art
+- artistry
+- rtistry
+
+---
+
+Lilly Pads :) 
+
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+n_points <- 800
+theta <- seq(0, 2 * pi, length.out = n_points)
+radius <- rep(c(0, 1), length.out = n_points)
+x <- radius * cos(theta)
+y <- radius * sin(theta)
+z <- radius * sin(theta/2)
+# Create a dataframe with the generated data
+data <- data.frame(x = x, y = y, z = z)
+
+# Create the generative art plot
+plot <- ggplot(data, aes(x = x, y = y)) +
+    geom_line(color = "#5E8C61", size = 0.3) +
+geom_line(aes(y=x, x = y), color = "#4E6151", size = 0.5) +
+    theme_void() +
+    coord_polar() ; plot
+
+```
+
+
+```{r, echo = FALSE, results = FALSE, fig.keep='none', message=FALSE, warning=FALSE}
+ggsave("featured.png", bg = "transparent")
+plot
+dev.off()
+```
+
