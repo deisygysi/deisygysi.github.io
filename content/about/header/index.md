@@ -8,7 +8,7 @@ headline: |
   Network Science for Precision Medicine
 ---
 
-I am a Professor of Statistics and head of the Precision Analytics Lab at the Federal University of Paraná ([UFPR](https://ufpr.br/)), Brazil. My research sits at the intersection of **Network Science**, **Machine Learning**, and **Precision Medicine**, where I develop computational approaches to understand disease mechanisms and support more targeted diagnostics and therapies.
+I am a Professor in the [Department of Statistics](http://www.est.ufpr.br/) and head of the Precision Analytics Lab at the Federal University of Paraná ([UFPR](https://ufpr.br/)), Brazil. I also supervise graduate students in UFPR's [Bioinformatics](https://www.bioinfo.ufpr.br/) and [Informatics](https://www.prppg.ufpr.br/site/ppginf/pb/) programs. My research sits at the intersection of **Network Science**, **Machine Learning**, and **Precision Medicine**, where I develop computational approaches to understand disease mechanisms and support more targeted diagnostics and therapies.
 
 My work combines molecular, clinical, and population-level data to study complex disease. I am particularly interested in network-based biomarker discovery, drug repurposing, and the contribution of non-coding RNA interactions to disease diagnosis, progression, and treatment. I also develop open methods and R packages that help researchers analyze and interpret complex biomedical data.
 
