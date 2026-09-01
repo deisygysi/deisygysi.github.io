@@ -7,8 +7,8 @@
             <h1 id="home-title">{{ .Params.title }}</h1>
             <p class="home-lead">{{ .Params.description }}</p>
             <div class="home-actions">
-                <a class="home-button home-button--primary" href="{{ "/projects/" | relURL }}">Explore my research <span aria-hidden="true">→</span></a>
-                <a class="home-button home-button--secondary" href="{{ "/publications/" | relURL }}">View publications</a>
+                <a class="home-button home-button--primary" href="{{ "projects/" | relURL }}">Explore my research <span aria-hidden="true">→</span></a>
+                <a class="home-button home-button--secondary" href="{{ "publications/" | relURL }}">View publications</a>
             </div>
             {{ if .Params.show_social_links }}
             <div class="home-social" aria-label="Academic and social profiles">
@@ -18,11 +18,11 @@
         </div>
         <div class="home-portrait">
             <div class="home-portrait__frame">
-                <img src="{{ "/about/sidebar/avatar.jpg" | relURL }}" alt="Portrait of Deisy Morselli Gysi" width="700" height="679">
+                <img src="{{ "about/sidebar/avatar.jpg" | relURL }}" alt="Portrait of Deisy Morselli Gysi" width="700" height="679">
             </div>
             <div class="home-portrait__caption">
                 <span>Networks &amp; Cognition</span>
-                <img src="{{ "/img/logo_color.png" | relURL }}" alt="" width="48" height="48">
+                <img src="{{ "img/logo_color.png" | relURL }}" alt="" width="48" height="48">
             </div>
         </div>
     </section>
@@ -58,9 +58,9 @@
             <h2 id="explore-title">Research, tools and people</h2>
         </div>
         <nav class="home-explore__links" aria-label="Featured sections">
-            <a href="{{ "/publications/" | relURL }}"><span>Peer-reviewed work</span><strong>Publications</strong><b aria-hidden="true">↗</b></a>
-            <a href="{{ "/projects/" | relURL }}"><span>Current questions</span><strong>Projects</strong><b aria-hidden="true">↗</b></a>
-            <a href="{{ "/labmembers/" | relURL }}"><span>Collaborators &amp; trainees</span><strong>Lab members</strong><b aria-hidden="true">↗</b></a>
+            <a href="{{ "publications/" | relURL }}"><span>Peer-reviewed work</span><strong>Publications</strong><b aria-hidden="true">↗</b></a>
+            <a href="{{ "projects/" | relURL }}"><span>Current questions</span><strong>Projects</strong><b aria-hidden="true">↗</b></a>
+            <a href="{{ "labmembers/" | relURL }}"><span>Collaborators &amp; trainees</span><strong>Lab members</strong><b aria-hidden="true">↗</b></a>
         </nav>
     </section>
 
@@ -69,7 +69,7 @@
             <p class="home-kicker">Collaborate</p>
             <h2 id="contact-title">Interested in networks, data and human health?</h2>
         </div>
-        <a class="home-button home-button--light" href="{{ "/contact/" | relURL }}">Start a conversation <span aria-hidden="true">→</span></a>
+        <a class="home-button home-button--light" href="{{ "contact/" | relURL }}">Start a conversation <span aria-hidden="true">→</span></a>
     </section>
 </main>
 <script src="{{ "js/particles.min.js" | relURL }}"></script>
