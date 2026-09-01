@@ -1,7 +1,8 @@
 ---
 title: "About"
 description: |
-  A Hugo theme made for R Markdown users.
+  Network scientist working across bioinformatics, statistics and human health.
+headless: false
 show_header: true
 sidebar_left: true
 # Keep this! Do not edit.

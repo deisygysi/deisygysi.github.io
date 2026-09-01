@@ -12,7 +12,6 @@ links:
   name: publication
   url: https://doi.org/10.1073/pnas.2025581118
 event_url: https://doi.org/10.1073/pnas.2025581118
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

@@ -1,9 +1,11 @@
 ---
-title: "Mental Wealth"
-subtitle: "Mental Health, Cognition and Netwoks"
-excerpt: "Using Network Science for understanding mental disorders."
-date: 2020-01-01
+title: "Mental Health & Cognition"
+subtitle: "Network approaches to symptoms, cognition and personalized care"
+excerpt: "Studying how biological and symptom networks can improve our understanding of mental health and cognition."
+date: 2026-09-01
 author: "Deisy Morselli Gysi"
+weight: 6
+research_group: additional
 draft: false
 tags:
   - co-expression
@@ -20,15 +22,19 @@ layout: single
 
 ## Summary
 
-Cognition is a group of mental processes that include attention, memory, producing and understanding of language, learning, reasoning, problem-solving, and decision making. Basically, cognition is what sets us - humans, assuming you are one of us -  apart from other animals. 
+Cognition emerges from interconnected processes including attention, memory, language, learning and decision-making. Mental health conditions are similarly shaped by relationships among symptoms, biology, environment and lived experience rather than by isolated factors.
 
-When cognition is affected, our mental health is affected and can lead to more complex disorders such as Bipolar Disorder, Major Depression, PTSD, Autism Spectrum Disorder, Schizophrenia, etc. 
-How this complex network of modifications affect our symptoms and genetics can be studied through the light of complex systems.  
+We use tools from complex systems and network science to investigate these relationships at multiple levels. This includes gene co-expression networks, networks of psychological symptoms and simulation studies that test whether highly connected symptoms are meaningful intervention targets.
 
-The projects from Mental Wealth* try to pinpoint genes and symptoms that can be later used to targeted and personalized therapy. 
+## Research directions
 
+- Biological networks associated with cognition and psychiatric conditions
+- Symptom networks and candidate intervention targets
+- Simulations for evaluating personalized network strategies
+- Reproducible methods for psychological network analysis
 
-## Publications :books:
-:page_facing_up:  **Gysi, D.M.**, Nowick, K. _Understanding human cognition using TF-networks: Identifying signature genes for psychotic and neurodevelopmental disorders through a gene-co-expression networks approach_ (2021).
+## Selected publications
 
-:page_facing_up:  Pimpao, F., **Gysi, D.M.**, Castro, D., Ferreira, T.B. _The Nosographic Network Structure of Posttraumatic Stress Disorder_, Journal of Traumatic Stress. (2022). 
+- **Gysi DM**, Nowick K. **Understanding human cognition using TF-networks: Identifying signature genes for psychotic and neurodevelopmental disorders through a gene-co-expression networks approach** (2021).
+
+- Pimpao F, **Gysi DM**, Castro D, Ferreira TB. **The nosographic network structure of posttraumatic stress disorder.** *Journal of Traumatic Stress* (2022).

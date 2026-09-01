@@ -1,12 +1,16 @@
 ---
-title: "Gene Co-expression Networks"
-subtitle: "From constructing, combining and comparing co-expression networks"
-excerpt: "From constructing, combining and comparing co-expression networks"
-date: 2018-01-01
+title: "Network Biology & Multi-omics"
+subtitle: "Constructing, integrating and comparing biological networks"
+excerpt: "Methods for turning transcriptomic and multi-omic data into reproducible, interpretable biological networks."
+date: 2026-09-01
 author: "Deisy Morselli Gysi"
+weight: 4
+research_group: core
 draft: false
 tags:
   - co-expression
+  - multi-omics
+  - network biology
   - projects
 categories:
   - R packages
@@ -28,7 +32,7 @@ layout: single
 
 In co-expression networks, a pair of nodes is typically connected by a link if the genes they represent show a *significantly correlated expression pattern* across a set of biological samples of interest. They are often built from genome-wide expression data measured by RNA-Seq or microarrays. Those networks are often weighted, and it represents the strength of a gene-pair relationship. Gene co-expression networks are also signed, and the sign of the link can be indicative of whether a gene pair is regulated in the same direction or oppositely controlled. The majority of the methods used for constructing those networks rely on a similarity measure, such as mutual information or correlation.
 
-In this project, we aimed to develop and improve methodologies for constructing, combining, and comparing co-expression netwoks.
+This research develops and improves methods for constructing, integrating and comparing co-expression networks. The broader goal is to turn high-dimensional molecular data into robust representations of biological organization that can be compared across tissues, conditions and studies.
 
 ### Construction
 
@@ -48,7 +52,7 @@ CoDiNA identifies links - and nodes -that are **common** to all networks; **spec
 -   Different ($\beta$ \| `b.`): A particular interaction exists in *all networks* under comparison *with different sign*;
 -   Specific ($\gamma$ \| `g.`): A particular interaction *does not* exists in *all networks* under comparison.
 
-## Publications :books:
+## Selected publications
 
 :page_facing_up: Kolora, S.R.R., **Gysi, D.M.**, Schaffer, S., Grimm-Seyfarth, A., Szabolcs, M., Faria, R., Henle, K.,  Stadler, P.F., Schlegel, M., Nowick, K. _Accelerated evolution of tissue-specific genes mediates divergence amidst gene flow in European green lizards_, **Genome Biology and Evolution**. (2021) doi:10.1093/gbe/evab109
 
@@ -63,8 +67,8 @@ CoDiNA identifies links - and nodes -that are **common** to all networks; **spec
 :page_facing_up: Kutsche, L.K., **Gysi, D.M.** , Fallmann, J., Lenk, K., Petri, R., Swiersy, A., Klapper, S.D., Pircs, K., Khattak, S., Stadler, P. F., Jakobsson, J., Nowick, K., Busskamp, V. _Combined Experimental , System-Level Analyses Reveal the Complex Regulatory Network of miR-124 during Human Neurogenesis_, **Cell Systems**. vol. 7, no. 4 (2018) doi:10.1016/j.cels.2018.08.011
 
 
-## R packages :package:
+## Open-source tools
 
-- wTO
-- CoDiNA
+- [wTO](/rpackages/wto/): weighted topological overlap and consensus networks
+- [CoDiNA](/rpackages/codina/): differential network analysis across multiple conditions
 

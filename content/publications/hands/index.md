@@ -10,7 +10,6 @@ links:
   name: publication
   url: https://www.sciencedirect.com/science/article/pii/S0196655315001534
 event_url: 'https://www.sciencedirect.com/science/article/pii/S0196655315001534'
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

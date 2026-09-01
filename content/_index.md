@@ -1,15 +1,9 @@
 ---
 title: "Deisy Morselli Gysi"
 subtitle: "Networks & Cognition"
-description: "Statistics | Network Science | Bioinformatics | Biotechnology"
+description: "Decoding disease through networks, data and AI."
 date: 2021-06-08
-image_left: true
-text_align_left: false
 show_social_links: true # specify social accounts in site config
-show_action_link: true
-action_link: /about
-#action_label: "Read More &rarr;"
-#action_type: button # text, button
 type: home
 ---
 

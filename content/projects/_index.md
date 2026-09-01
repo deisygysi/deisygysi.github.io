@@ -1,21 +1,20 @@
 ---
-title: Projects I'm involved with
-#description: "Give your projects a place to live online."
+title: Research Projects
+description: "Research at the intersection of networks, artificial intelligence and human health."
+type: project
 author: "Deisy Morselli Gysi"
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
 # for listing page layout
 layout: list-grid # list, list-sidebar, list-grid
 
 # for list-sidebar layout
-sidebar: 
-  title: A Sidebar for Your Projects
+sidebar:
+  title: Research Projects
   description: |
-    Projects can be anything!
-    Check out the _index.md file in the /project folder 
-    to edit this content.
-  author: "The R Markdown Team @RStudio"
+    Methods and collaborations connecting biomedical data to mechanisms, predictions and better health decisions.
+  author: "Deisy Morselli Gysi"
   text_link_label: ""
   text_link_url: ""
   show_sidebar_adunit: false # show ad container
@@ -28,7 +27,7 @@ cascade:
   # for single-sidebar layout only
   sidebar:
     text_link_label: View all projects
-    text_link_url: /project/
+    text_link_url: /projects/
     show_sidebar_adunit: false # show ad container
 ---
 

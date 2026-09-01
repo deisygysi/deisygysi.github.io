@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 .DS_Store
+.hugo_build.lock
+.quarto/
+public/
+public-ufpr/
+resources/_gen/

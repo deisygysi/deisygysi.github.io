@@ -16,7 +16,6 @@ links:
   name: video
   url: https://www.youtube.com/watch?v=mlDqludqJUw
 event_url: https://doi.org/10.1038/d41586-021-00314-6
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

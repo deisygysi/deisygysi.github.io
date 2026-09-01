@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ $caller := . }}
+{{ $pages := .RegularPagesRecursive }}
+<main class="page-main pa4 projects-page" role="main">
+  <header class="blog-intro mw8 center tc mb5">
+    <p class="projects-page__eyebrow">Research portfolio</p>
+    <h1 class="f2 f1-ns lh-solid center fw4">{{ .Title }}</h1>
+    <p class="f6 f5-ns measure lh-copy center">{{ .Description }}</p>
+  </header>
+
+  <section class="projects-group mw8 center" aria-labelledby="core-research-title">
+    <div class="projects-group__heading">
+      <h2 id="core-research-title">Core research</h2>
+      <p>Current research connecting networks, AI and biomedical data to mechanisms and therapeutic opportunities.</p>
+    </div>
+    <div class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-start">
+      {{ range (where $pages.ByWeight "Params.research_group" "core") }}
+        {{ .Scratch.Set "$root" $caller }}
+        {{ partial "shared/summary-grid" . }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="projects-group projects-group--additional mw8 center" aria-labelledby="additional-research-title">
+    <div class="projects-group__heading">
+      <h2 id="additional-research-title">Additional research</h2>
+      <p>Collaborative applications of network methods across cognition, mental health, ecology and microbiomes.</p>
+    </div>
+    <div class="blog-content db flex-ns flex-row-ns flex-wrap-ns items-start">
+      {{ range (where $pages.ByWeight "Params.research_group" "additional") }}
+        {{ .Scratch.Set "$root" $caller }}
+        {{ partial "shared/summary-grid" . }}
+      {{ end }}
+    </div>
+  </section>
+</main>
+{{ end }}

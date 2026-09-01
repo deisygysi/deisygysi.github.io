@@ -13,7 +13,6 @@ links:
   name: publication
   url: https://doi/10.1098/rsif.2019.0610
 event_url: https://doi/10.1098/rsif.2019.0610
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

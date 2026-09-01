@@ -11,7 +11,6 @@ links:
   name: publication
   url: https://link.springer.com/article/10.1007/s10530-021-02726-x
 event_url: https://link.springer.com/article/10.1007/s10530-021-02726-x
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

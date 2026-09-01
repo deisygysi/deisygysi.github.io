@@ -14,7 +14,6 @@ links:
   url: https://doi.org/10.21203/rs.3.rs-2499311/v1
 
 event_url: https://doi.org/10.21203/rs.3.rs-2499311/v1
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

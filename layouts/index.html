@@ -1,20 +1,77 @@
 {{ define "main" }}
-<main class="page-main pa4" role="main">
-  <section class="page-content mw9 center">
-    <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
-      <div class="mh4 w-50-l {{ if not .Params.text_align_left }}tr{{ end }}">
-        {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid">{{ . }}</h1>{{ end }}
-        {{ with .Params.subtitle }}<h2 class="f5 fw7 mt0 mb4 ttu tracked">{{ . }}</h2>{{ end }}
-        {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
-        {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
-        {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
-      </div>
-      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
-      {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
-      {{ end }}
-      </div>
-    </div>
-  </section>
+<main class="page-main home-page" role="main">
+    <section class="home-hero" aria-labelledby="home-title">
+        <div id="particles-js" aria-hidden="true"></div>
+        <div class="home-hero__copy">
+            <p class="home-eyebrow">Network Science · AI for Healthcare · Drug Discovery</p>
+            <h1 id="home-title">{{ .Params.title }}</h1>
+            <p class="home-lead">{{ .Params.description }}</p>
+            <div class="home-actions">
+                <a class="home-button home-button--primary" href="{{ "/projects/" | relURL }}">Explore my research <span aria-hidden="true">→</span></a>
+                <a class="home-button home-button--secondary" href="{{ "/publications/" | relURL }}">View publications</a>
+            </div>
+            {{ if .Params.show_social_links }}
+            <div class="home-social" aria-label="Academic and social profiles">
+                {{ partial "shared/social-links.html" . }}
+            </div>
+            {{ end }}
+        </div>
+        <div class="home-portrait">
+            <div class="home-portrait__frame">
+                <img src="{{ "/about/sidebar/avatar.jpg" | relURL }}" alt="Portrait of Deisy Morselli Gysi" width="700" height="679">
+            </div>
+            <div class="home-portrait__caption">
+                <span>Networks &amp; Cognition</span>
+                <img src="{{ "/img/logo_color.png" | relURL }}" alt="" width="48" height="48">
+            </div>
+        </div>
+    </section>
+
+    <section class="home-focus" aria-labelledby="focus-title">
+        <div class="home-section-heading">
+            <p class="home-kicker">Research focus</p>
+            <h2 id="focus-title">Finding structure in complex systems</h2>
+            <p>I combine statistics, network science and computational biology to study how interconnected systems shape health and cognition.</p>
+        </div>
+        <div class="home-focus__grid">
+            <article>
+                <span class="home-focus__number">01</span>
+                <h3>Network medicine</h3>
+                <p>Mapping biological relationships to understand disease mechanisms and identify therapeutic opportunities.</p>
+            </article>
+            <article>
+                <span class="home-focus__number">02</span>
+                <h3>Data integration</h3>
+                <p>Connecting heterogeneous biomedical data through reproducible statistical and computational methods.</p>
+            </article>
+            <article>
+                <span class="home-focus__number">03</span>
+                <h3>Networks &amp; cognition</h3>
+                <p>Investigating the social and biological systems that influence mental health and human behavior.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="home-explore" aria-labelledby="explore-title">
+        <div class="home-section-heading home-section-heading--compact">
+            <p class="home-kicker">Explore</p>
+            <h2 id="explore-title">Research, tools and people</h2>
+        </div>
+        <nav class="home-explore__links" aria-label="Featured sections">
+            <a href="{{ "/publications/" | relURL }}"><span>Peer-reviewed work</span><strong>Publications</strong><b aria-hidden="true">↗</b></a>
+            <a href="{{ "/projects/" | relURL }}"><span>Current questions</span><strong>Projects</strong><b aria-hidden="true">↗</b></a>
+            <a href="{{ "/labmembers/" | relURL }}"><span>Collaborators &amp; trainees</span><strong>Lab members</strong><b aria-hidden="true">↗</b></a>
+        </nav>
+    </section>
+
+    <section class="home-contact" aria-labelledby="contact-title">
+        <div>
+            <p class="home-kicker">Collaborate</p>
+            <h2 id="contact-title">Interested in networks, data and human health?</h2>
+        </div>
+        <a class="home-button home-button--light" href="{{ "/contact/" | relURL }}">Start a conversation <span aria-hidden="true">→</span></a>
+    </section>
 </main>
+<script src="{{ "js/particles.min.js" | relURL }}"></script>
+<script src="{{ "js/home-particles.js" | relURL }}"></script>
 {{ end }}

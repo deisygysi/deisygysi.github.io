@@ -8,7 +8,6 @@ show_post_time: false
 event: "International Biometric Conference IBC (2018)"
 event_url: http://2018.biometricconference.org/
 author: "Deisy Morselli Gysi"
-location: "Barcelona, Spain"
 draft: false
 # layout options: single, single-sidebar
 layout: single

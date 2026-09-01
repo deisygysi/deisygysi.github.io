@@ -11,7 +11,6 @@ links:
   name: publication
   url: https://doi.org/10.3389/fmicb.2020.01305
 event_url: https://doi.org/10.3389/fmicb.2020.01305
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

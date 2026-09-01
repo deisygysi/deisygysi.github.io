@@ -12,7 +12,6 @@ links:
   name: publication
   url: https://doi.org/10.1002/jts.22818
 event_url: https://doi.org/10.1002/jts.22818
-author: "Deisy Morselli Gysi"
 draft: false
 # layout options: single, single-sidebar
 layout: single

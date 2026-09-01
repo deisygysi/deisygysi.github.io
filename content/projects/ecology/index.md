@@ -1,9 +1,11 @@
 ---
-title: "Ecology"
-subtitle: "Ecology, fungi, bacterias and their netwoks"
-excerpt: "Using Network Science to better understand microbiology."
-date: 2023-01-01
+title: "Ecological & Microbiome Networks"
+subtitle: "Community structure across organisms and environments"
+excerpt: "Using network science to study microbial communities, ecological interactions and environmental change."
+date: 2026-09-01
 author: "Deisy Morselli Gysi"
+weight: 7
+research_group: additional
 draft: false
 tags:
   - ecology
@@ -19,9 +21,18 @@ layout: single
 
 ## Summary
 
-Different species interact with one another in differnt manners, according to their surrounding. The project related to ecology I'm involved with focus on the identification of community structures based on metagenomics. 
+Species and microbial communities respond to one another and to their environment through complex webs of interaction. This research uses community data and network methods to identify ecological structure, temporal dynamics and potential biotic relationships.
 
-## Publications :books:
+Our collaborations span marine mycoplankton, soil protists, host-associated microbiomes and evolutionary questions. The common methodological challenge is to distinguish meaningful ecological organization from patterns produced by abundance, sampling and environmental variation.
+
+## Research directions
+
+- Microbial community and co-occurrence networks
+- Temporal and environmental dynamics of ecological systems
+- Host-associated microbiomes
+- Robust inference from metagenomic community data
+
+## Selected publications
 
 📄 Kolora, S.R.R., **Gysi, D.M.**, Schaffer, S., Grimm-Seyfarth, A., Szabolcs, M., Faria, R., Henle, K.,  Stadler, P.F., Schlegel, M., Nowick, K. _Accelerated evolution of tissue-specific genes mediates divergence amidst gene flow in European green lizards_, **Genome Biology and Evolution**. (2021) [doi:10.1093/gbe/evab109](https://doi.org/10.1093/gbe/evab109)
 
